@@ -1,8 +1,8 @@
 # Site
-title: 飞翔的猪猪                                          #网站题目
+title: 懒惰的猪饲料                                          #网站题目
 subtitle:                                                #网站子标题
 description: 涉及RM、C++、Python、计算机视觉                #描述      
-author: Demon                                            #作者 
+author: 王国胜                                           #作者 
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans                                        #语言选择    
 date_format: '%Y-%m-%d'
