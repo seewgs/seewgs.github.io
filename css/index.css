@@ -73,7 +73,10 @@ body{
 .left_hr{
     align-content: center;
     width:95%;
-    background-color: white;
+    border: none;
+    height: 2px;
+    background-color: #bfb8b8;
+
 }
 .ji-ben-xin-xi{
     margin-left: 7px;
