@@ -1,0 +1,124 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #466180;
+}
+#app{
+    width: 1310px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.touxiangimg{
+    width: 100%;
+    height: 100%;
+}
+.touxiangimg:hover{
+    animation: warn 3s ease-in;
+}
+@keyframes warn {
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(0.3);
+        opacity: 1;
+    }
+
+    75% {
+        transform: scale(1);
+        -webkit-transform: scale(0.3);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(0.5);
+        opacity: 0.6;
+    }
+
+    25% {
+        transform: scale(1);
+        -webkit-transform: scale(0.8);
+        opacity: 0.4;
+    }
+
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 0.2;
+    }
+}
+
+.left{
+    width: 28%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    float: left;
+    background-color: #f6e4c1;
+}
+.right{
+    width: 72%;
+    height: 1320px;
+    /*border: 2px solid blueviolet;*/
+    float: left;
+    background-color: white;
+}
+.left .touxiang{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border: 5px solid #2ca4e3;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+.left_hr{
+    align-content: center;
+    width:95%;
+    background-color: white;
+}
+.ji-ben-xin-xi{
+    margin-left: 7px;
+    color: #746a6a;
+    font-size: 14px;
+    border: 1px;
+}
+.ji-ben-xin-xi tr{
+    height: 21px;
+}
+.ji-ben-xin-xi td{
+    width: 120px
+}
+.githubmu{
+    text-decoration: none;
+    color:#746a6a;
+}
+.githubmu:hover{
+    color: #4545e8;
+}
+.Bar{
+    width: 99%;
+    height: 13px;
+    background: #b5b8b5;
+
+}
+.Bar:hover{
+    background-color: #2ca4e3;
+}
+.Bar p{
+    margin: 0px;
+    padding: 0px;
+}
+.Bar div{
+    height: 13px;
+    background: #707170;
+}
+.expess{
+    color: #575c57;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.expess img{
+    width: 28px;
+    position: relative;
+    top: 7px;
+}
+
