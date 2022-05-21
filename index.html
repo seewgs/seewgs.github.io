@@ -6,6 +6,7 @@
 </head>
 <link rel="stylesheet" href="css/index.css" type="text/css">
 <script src="js/jquery.js"></script>
+<script src="js/s.js" rel="stylesheet"></script>
 <body>
 <script type="text/javascript">
     // $(function (){
@@ -13,14 +14,19 @@
     //        $(".Bar_p").show();
     //    })
     // });
+    clickEffect(); //调用事件函数
 </script>
     <div id="app">
                 <div class="left">
+                    <br>
                     <div class="touxiang">
                         <img src="images/wgsphoto.png" alt="姓名：王国胜" class="touxiangimg">
                     </div>
+                    <br>
                     <p style="font-size: 28px;color: #2ca4e3;text-align: center;margin:0px;padding: 0px">王国胜</p>
                     <p style="font-size: 15px;color: #2ca4e3;text-align: center;margin:0px;padding: 0px">Java/Web</p>
+                    <br>
+                    <br>
                     <span class="expess"><img src="images/man.png" alt="">&nbsp;&nbsp;基本信息</span>
                     <hr class="left_hr">
                     <table class="ji-ben-xin-xi" >
@@ -42,6 +48,7 @@
                        </tr>
                     </table>
                     <br>
+                    <br>
                     <span class="expess"><img src="images/phone.png" alt="" width="24px">&nbsp;&nbsp;联系方式</span>
                     <hr class="left_hr">
                     <table class="ji-ben-xin-xi" >
@@ -58,6 +65,7 @@
                             <td><a class="githubmu" href="https://seewgs.github.io/">https://seewgs.github.io/</a></td>
                         </tr>
                     </table>
+                    <br>
                     <br>
                     <span class="expess"><img src="images/star.png" alt="" width="24px">&nbsp;&nbsp;技能点</span>
                     <hr class="left_hr">
@@ -108,6 +116,7 @@
                         </tr>
                     </table>
                     <br>
+                    <br>
                     <span class="expess"><img src="images/seting.png" alt="" width="24px">&nbsp;&nbsp;技术栈</span>
                     <hr class="left_hr">
                     <table class="ji-ben-xin-xi" >
@@ -145,18 +154,131 @@
                         </tr>
                     </table>
                     <br>
+                    <br>
                     <span class="expess"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;微信</span>
                     <hr class="left_hr">
                     <img src="images/WeChat.png" alt="" width="100%">
+                    <div style="height: 818px">
+
+                    </div>
                 </div>
                 <div class="right" >
-                    <div style="width: 100%;">
-                        <a href="https://blog.csdn.net/m0_37852399/article/details/87874005">mysql的索引使用注意事项以避免索引失效</a><br>
-                        <a href="https://blog.csdn.net/liuhuiteng/article/details/106395814?spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-7.highlightwordscore&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-7.highlightwordscore">Java面试180题</a>
-                        <br> <a href="https://blog.csdn.net/qq_41482600/article/details/122731586">springboot常用注解</a><br>
-                        <a href="https://blog.csdn.net/wuxianbing2012/article/details/122960591">mysql优化</a><br>
-                        <a href="https://blog.csdn.net/BAI20010904/article/details/122496371">aop如何实现</a>
-                    </div>
+                    <ul class="right_biaoti">
+                        <li>
+                            <span class="expess_right"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;求职意向</span>
+                            <hr>
+                         <table class="QZYX">
+                             <tr>
+                                 <td>意向岗位：</td>
+                                 <td>java开发工程师</td>
+                                 <td>意向城市：</td>
+                                 <td>北京</td>
+                             </tr>
+                             <tr>
+                                 <td>期望薪资：</td>
+                                 <td>9-11K</td>
+                                 <td>求职类型：</td>
+                                 <td>社招</td>
+                             </tr>
+                             <tr>
+                                 <td>期望行业：</td>
+                                 <td>计算机软件</td>
+                                 <td>当前状态：</td>
+                                 <td>离职</td>
+                             </tr>
+                         </table>
+                        </li>
+                        <li>
+                            <span class="expess_right"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;教育经历</span>
+                            <hr>
+                            <ul class="JYJL">
+                                <li>
+                                    <p class="JYJL_P">哈尔滨广厦学院 — 计算机科学与技术（本科）2016.09-2020.06</p>
+                                    主修Web前/后端开发、高级数据库系统、数据可视化、计算机网络、软件工程等，以及专业实训及毕业设计等
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="expess_right"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;工作经历</span>
+                            <hr>
+                            <ul class="JYJL">
+                                <li>
+                                    <p class="JYJL_P">东软集团（北京）有限公司 — 软件工程师 （2021.08-2022.01）</p>
+                                    参与中国人保健康系统相关业务数据运维工作，辅助系统进行相关理赔。
+                                </li>
+                                <li>
+                                    <p class="JYJL_P">河北金拓互联网科技有限公司 — Java开发工程师 （2019.08-2021.07）</p>
+                                    参与项目相关模块业务逻辑接口开发，根据业务需求更新接口。
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="expess_right"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;项目经历</span>
+                            <hr>
+                            <ul class="JYJL">
+                                <li>
+                                    <p class="JYJL_P">中国人保健康社保信息系统</p>
+                                    <span class="XM_biaoti">项目描述:</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此系统采用webservices技术开发的一个属于中间业务系统，对接并保存医保数据，给第三方系统进行相关理赔操作，与医保端数据同步，有两种情况，一个是作为客户端，根据请求报文，下载对应的响应报文，一个是作为服务端，医保推送报文，我们接收相应的报文。</p>
+                                    <span class="XM_biaoti">责任描述：</span>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前负责各个地市相关数据运维工作，配合开发地市新需求。</p>
+                                </li>
+                                <li>
+                                    <p class="JYJL_P">旭康医院后台管理系统</p>
+                                    <span class="XM_biaoti">项目描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此系统为保衡阳旭康中西医结合医院利用SpingBoot等框架实现的HIS管理系统,主要实现了患者管理、病房管理、药房管理、住院管理、门诊挂号、收费管理等各种业务管理、此系统主要目的是达到办公自动化,以及记录患者就诊、住院的流程信息。缩减了患者就诊治病的信息流通效率，提高了极大的工作效率</p>
+                                    <span class="XM_biaoti">技术支持：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此系统选择并使用了SpringBoot为项目骨架、Maven构建工具、Git版本控制工具。通过MyBatis-plus框架与MySql数据库连接、以Shiro安全框架进行登录验证和功能权限管理，项目为传统一体化项目，前端结合vue（iview组件）构建页面，通过axiox来进行前后端交互，开发工具为idea。</p>
+                                    <span class="XM_biaoti">责任描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主要负责预约挂号、门诊就医、权限管理等接口业务逻辑开发，并使用iview组件构建后端页面</p>
+                                </li>
+                                <li><p class="JYJL_P">停车场管理系统</p>
+                                    <span class="XM_biaoti">项目描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;随着社会发展的速度，车辆成为了人们出行的必备工具，停车难应该是大多车主的心声，尤其在一线大城市，车位更是一“位”难求。传统的人工现金收费模式存在着很多缺陷，一方面工作强度大、效率低，另一方面则是在财务上容易造成漏洞或者现金流失。相比之下，停车场管理系统全部采用电脑收费，每一笔款项都经过电脑的确认、统计和记录，避免了操作失误或者作弊的现象发生。而智能停车场系统会自动储存每一个停车记录，出入口处会进行信息比对，保护车主车辆安全。</p>
+                                    <span class="XM_biaoti">技术支持：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目采用SSM为框架，以MySql数据库、Maven构建工具、Git版本控制工具，Idea为开发工具作为后端技术，前段采用jsp、Html、Css、JQuery技术，通过ajax与后端交互。</p>
+                                    <span class="XM_biaoti">责任描述：</span><br>
+                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参与需求文档编写，使用HTML+CSS+JQ前台页面设计，实现优惠券/卡管理，达到一定条件后可给这个用户下添加不同金额的优惠，包括在一定时间内未使用的优惠卡进行失效处理等，负责财务管理，包括财务收入、支出、去向、来源、统计等。用户管理实现用户的更新、添加、包括管理人员在内的一些权限等模块，</li></p>
+                                <li><p class="JYJL_P">鸿鹏人力资源有限责任公司人事系统</p>
+                                    <span class="XM_biaoti">项目描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此系统意在帮助企业人力资源信息化的一种方式，减轻了人力资源管理人员的日常事务性时间，避免了重复的劳动，提高了工作效率，降低了管理成本，不断的更新和管理数据，统计和分析数据情况。</p>
+                                    <span class="XM_biaoti">技术支持：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目采用SSM为框架，MyBatis连接MySql数据库、Maven构建工具、Git版本控制工具，Idea为开发工具作为后端技术，前段采用jsp、Html、Css、JQuery、ajax以及js的组件构成，使用java多线程开发。</p>
+                                    <span class="XM_biaoti">责任描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参与需求文档编写，使用HTML+CSS+JQ前台页面设计，参与员工档案管理，一些修改、添加、删除等操作，和人员分配管理的一些查询、修改、统计等。</p>
+                                </li>
+                                <li><p class="JYJL_P">黄骅银海商务酒店管理系统</p>
+                                    <span class="XM_biaoti">项目描述：</span><br>
+                                    <span class="XM_biaoti_l">（一）提高效率</span><br>
+                                   <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;快速、简捷的操作：界面直观，操作使用简捷、明快，快速开房只需三分钟；</p>
+                                      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;强大的分类统计：系统可按各条件的分类，让销售部及管理层随时可以得知回头客、协议单位的入住情况。</p>
+                                      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;消费排行：单次入住排行和客人入住总排行显示回头客入住情况，可根据具体情况给与客人一定优惠，或赠送会员卡、打折卡，鼓励客人消费；
+                                       详尽的房态信息：多达8 种房态，且都有图标相对应，为相关部门提供详尽、明了的房间信息；</p>
+                                    <span class="XM_biaoti_l">（二）提高效益</span><br>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;订房控制：完善的散客和团体预订功能可防止有房不能出租或满房重订的情况出现，可随时提供准确和最新的房间使用和预订情况，从而可提高客房出租率；</p>
+                                      <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 营业收入的自动统计：收入汇总表，使酒店管理层清楚知道各时期客源变化与收入结构变化，及时调整经营方式与策略；</p>
+                                      <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话控制：电话自动计费及电话开关控制，可杜绝话费的跑账、漏帐，并可防止服务员私打电话；</p>
+
+                                    <span class="XM_biaoti_l">（三）加强管理</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 授权控制：严格控制房价，不同的房价必须有不同的折扣授权，并有房价折扣授权；并可以报表的形式进行监控及查核；</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 收银入帐的管理：收银入帐均只能红字冲销，不能修改当前记录，符合财务作法；</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对电脑权限的管理：各项功能均有严格的权限控制，保证各类数据不被无权过问的人观看和操作。</p>
+                                    <span class="XM_biaoti">技术支持：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目采用SSM为框架，以MySql数据库、Maven构建工具、Git版本控制工具，Idea为开发工具作为后端技术，前段采用jsp、Html、Css、JQuery、ajax以及js的组件构成，使用java多线程开发。
+                                    </p>
+                                    <span class="XM_biaoti">责任描述：</span><br>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 主要负责房间管理、财务管理、入住人员登记等</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="expess_right"><img src="images/go.png" alt="" width="24px">&nbsp;&nbsp;自我评价</span>
+                            <hr>
+                            <p style="color:#5c5a5a;">&nbsp;&nbsp;&nbsp;逻辑思维清晰，善于从各方面寻找解决问题的办法，追求创新，有很好的团队合作意识，渴望新知识，新技能。</p>
+                            <br>
+                            <br>
+                        </li>
+                    </ul>
                 </div>
 
     </div>

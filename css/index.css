@@ -1,7 +1,8 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #466180;
+    background-color: #587495;
+    cursor: pointer;
 }
 #app{
     width: 1310px;
@@ -57,10 +58,10 @@ body{
 }
 .right{
     width: 72%;
-    height: 1320px;
+    height: 100%;
     /*border: 2px solid blueviolet;*/
     float: left;
-    background-color: white;
+    background-color: #d4cbbd;
 }
 .left .touxiang{
     width: 130px;
@@ -88,7 +89,8 @@ body{
     height: 21px;
 }
 .ji-ben-xin-xi td{
-    width: 120px
+    width: 120px;
+    height: 28px;
 }
 .githubmu{
     text-decoration: none;
@@ -124,4 +126,45 @@ body{
     position: relative;
     top: 7px;
 }
+.expess_right{
+    color: #575c57;
+    font-size: 22px;
 
+}
+.expess_right img{
+    width: 30px;
+    position: relative;
+    top: 7px;
+}
+.right_biaoti{
+    list-style: none;
+}
+.QZYX{
+    color: #5c5a5a;
+    margin: 0 auto;
+}
+.QZYX tr td:first-child{
+    width:100px;
+}
+.QZYX tr td:nth-child(2){
+    width:290px;
+}
+.QZYX tr td:nth-child(3){
+    width:100px;
+}
+.QZYX tr td:last-child{
+    width:290px;
+}
+.JYJL{
+    list-style: disc;
+    color: #5c5a5a;
+}
+.JYJL_P{
+    color: #3c7899;font-weight: bolder
+}
+.XM_biaoti{
+    font-weight: bolder;
+}
+.XM_biaoti_l{
+    font-weight: bold;
+}
