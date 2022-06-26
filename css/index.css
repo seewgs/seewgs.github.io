@@ -168,3 +168,9 @@ body{
 .XM_biaoti_l{
     font-weight: bold;
 }
+button{
+    border: 0px;
+    background-color: #59f516;width: 180px;height: 80px;
+    float: right;
+    margin-top: 50px;
+}
